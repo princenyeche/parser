@@ -1,4 +1,4 @@
-<?
+<?php
 // strict requirement following  type notation on function
 declare(strict_types=1);
 
