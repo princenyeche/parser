@@ -19,7 +19,7 @@ function add_five(&$value) {
 
 $num = 4;
 add_five($num);
-// the value of $num will be 12 even though it declared on the function.
+// the value of $num will be 12 even though it's not declared on the function.
 echo $num;
 
 ?>
