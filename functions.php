@@ -5,7 +5,7 @@ declare(strict_types=1);
 // create a function
 function getUser(string $name) : string {
    for ($v = 0; $v <= 10; $v++) {
-      $name += "Hello world";
+      $name = "Hello world";
    }
   return "Today's a new day $name";
 }
