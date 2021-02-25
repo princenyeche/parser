@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 // create a function
 function getUser(string $name) : string {
-   for ($v = 0, $v <= 10, $v++) {
+   for ($v = 0; $v <= 10; $v++) {
       $name += "Hello world";
    }
   return "Today's a new day $name";
 }
 
-getUser("Friday");
+echo getUser("Friday");
 
 // passing argument as reference. The reason is the ampersand infront of the value
 function add_five(&$value) {
